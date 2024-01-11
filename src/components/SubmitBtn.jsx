@@ -1,6 +1,6 @@
 const SubmitBtn = ({ text }) => {
   return (
-    <button type='submit' className='btn btn-primary'>
+    <button type='submit' className='btn btn-primary uppercase'>
       {text}
     </button>
   );
