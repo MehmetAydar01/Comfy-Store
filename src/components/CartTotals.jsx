@@ -15,7 +15,7 @@ const CartTotals = () => {
           <span className='font-medium'>{formatPrice(cartTotal)}</span>
         </p>
         {/* SHIPPING */}
-        <p className='flex justify-between text-xs border-b border-base-300 border-collapse pb-2'>
+        <p className='flex justify-between text-xs border-b border-base-300 pb-2'>
           <span>Shipping</span>
           <span className='font-medium'>{formatPrice(shipping)}</span>
         </p>
@@ -26,8 +26,8 @@ const CartTotals = () => {
         </p>
         {/* ORDER TOTAL */}
         <p className='flex justify-between text-sm mt-4 pb-2'>
-          <span>Order Total</span>
-          <span className='font-medium'>{formatPrice(orderTotal)}</span>
+          <span className='font-bold'>Order Total</span>
+          <span className='font-bold'>{formatPrice(orderTotal)}</span>
         </p>
       </div>
     </div>
