@@ -24,7 +24,7 @@ const PaginationContainer = () => {
     <div className='mt-16 flex justify-end'>
       <div className='join'>
         <button
-          className='btn btn-xs sm:btn-md join-item'
+          className='btn btn-xs sm:btn-md join-item uppercase'
           onClick={() => {
             let prevPage = page - 1;
             if (prevPage < 1) prevPage = pageCount;
@@ -47,7 +47,7 @@ const PaginationContainer = () => {
           );
         })}
         <button
-          className='btn btn-xs sm:btn-md join-item'
+          className='btn btn-xs sm:btn-md join-item uppercase'
           onClick={() => {
             let nextPage = page + 1;
             if (nextPage > pageCount) nextPage = 1;
